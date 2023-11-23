@@ -1,0 +1,175 @@
+.Header {
+  display: inline-block;
+  background-color: darkslateblue;
+  width: 100%;
+}
+
+.Header select {
+  color: white;
+  border: none;
+  background-color: darkslateblue;
+}
+
+.navHeader {
+  background-color: darkslateblue; 
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+}
+
+.navHeader li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.navMenu {
+  background-color: white; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.navSubHeader {
+  background-color: white; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.navSubHeader li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.Logo {
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.navSearch {
+  background-color: white; 
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navSearch li {
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 250px;
+}
+
+.svgSearch {
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: midnightblue;
+  color: white;
+}
+
+.footerLogo {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.col-40 {
+  text-align: left;
+  width: 40%;
+  padding-left: 5px;
+}
+
+.contactButton {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.navFooter {
+  background-color: midnightblue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+}
+
+.navFooter li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navCus {
+  background-color: midnightblue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+}
+
+.navCus li {
+  display: block;
+  font-size: 14px;
+}
+
+.navCard {
+  background-color: midnightblue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+}
+
+.navCard li {
+  display: block;
+  font-size: 14px;
+}
+
+.navLocation {
+  background-color: midnightblue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+}
+
+.navLocation li {
+  display: block;
+  font-size: 14px;
+}
+
+.navProductList {
+  background-color: white; 
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+}
+
+.navProductList li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navProductList a {
+  color: black;
+  text-decoration: none;
+}
