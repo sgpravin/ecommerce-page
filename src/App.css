@@ -1,17 +1,17 @@
 .Header {
   display: inline-block;
-  background-color: darkslateblue;
+  background-color: #002579;
   width: 100%;
 }
 
 .Header select {
   color: white;
   border: none;
-  background-color: darkslateblue;
+  background-color: #002579;
 }
 
 .navHeader {
-  background-color: darkslateblue; 
+  background-color: #002579; 
   list-style-type: none;
   text-align: right;
   margin: 0;
@@ -69,13 +69,12 @@
   list-style-type: none;
   text-align: right;
   margin: 0;
-  padding: 0;
+  padding-left: 730px;
 }
 
 .navSearch li {
   display: inline-block;
   font-size: 14px;
-  padding-left: 250px;
 }
 
 .svgSearch {
@@ -84,8 +83,9 @@
 }
 
 footer {
-  background-color: midnightblue;
+  background-color: #010822;
   color: white;
+  text-align: left;
 }
 
 .footerLogo {
@@ -99,13 +99,19 @@ footer {
   padding-left: 5px;
 }
 
+.col-20 {
+  text-align: left;
+  width: 20%;
+  padding-left: 5px;
+}
+
 .contactButton {
   border-radius: 20px;
   padding: 10px;
 }
 
 .navFooter {
-  background-color: midnightblue; 
+  background-color: #010822; 
   list-style-type: none;
   text-align: left;
   margin: 0;
@@ -118,7 +124,7 @@ footer {
 }
 
 .navCus {
-  background-color: midnightblue; 
+  background-color: #010822; 
   list-style-type: none;
   text-align: left;
   margin: 0;
@@ -131,7 +137,7 @@ footer {
 }
 
 .navCard {
-  background-color: midnightblue; 
+  background-color: #010822; 
   list-style-type: none;
   text-align: left;
   margin: 0;
@@ -144,7 +150,7 @@ footer {
 }
 
 .navLocation {
-  background-color: midnightblue; 
+  background-color: #010822; 
   list-style-type: none;
   text-align: left;
   margin: 0;
@@ -172,4 +178,117 @@ footer {
 .navProductList a {
   color: black;
   text-decoration: none;
+}
+
+#country, #lang, #shipping, #service {
+  padding-left: 5px;
+}
+
+.svg-inline--fa {
+  padding-right: 5px;
+}
+
+.heartIcon {
+  color: red;
+  font-size: large;
+}
+
+.userIcon, .shoppingIcon {
+  font-size: large;
+}
+
+.Menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.productAd {
+  background-color: #EFF0F2;
+  padding: 20px;
+  margin: 40px;
+}
+
+.prdAdContent {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.imgAd {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.leftAd {
+  background-color: #EFF0F2;
+  text-align: center;
+  width: 51%;
+  float: left;
+  height: 460px;
+  margin-left: -20px;
+}
+
+.rightAd {
+  background-color: #EFF0F2;
+  width: 51%;
+  float: right;
+  height: 460px;
+  margin-left: -20px;
+}
+
+.productAd button {
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #6076AA;
+}
+
+.productAd button:hover {
+  color: #fff;
+  background-color: #A92579;
+}
+
+.Menu button {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+}
+
+.Menu button:hover {
+  color: #fff;
+  background-color: #A92579;
+}
+
+.locationDrop {
+  border: none;
+  color: #fff;
+  background-color: #010822;
+}
+
+.offerZoneList {
+  background-color: #FCEFE8; 
+  list-style-type: none;
+  text-align: left;
+  margin: 450px 40px 40px 40px;
+  padding: 10px;
+  overflow-x: hidden;
+}
+
+.offerZoneList li {
+  display: inline-block;
+  font-size: 14px;
+  width: 25%;
+}
+
+.offerZone img {
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+}
+
+.navFooter button:hover {
+  background-color: #A92579;
+  color: #fff;
 }
